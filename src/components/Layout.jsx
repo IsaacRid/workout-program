@@ -9,10 +9,17 @@ export default function Layout(props) {
         </header>
     )
 
+    const footer = (
+        <footer>
+            <p>Built by <a href="https://IsaacRid.netlify.app" target="_blank">Isaac Rideal</a></p>
+        </footer>
+    )
+
     return (
         <>
             {header}
             {children}
+            {footer}
         </>
     )
 }
